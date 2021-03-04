@@ -1,0 +1,108 @@
+div.mew-btn{
+  &.left{
+    position: relative;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-right: -1px;
+  }
+  &.middle{
+    position: relative;
+    border-radius: 0;
+    margin-right: -1px;
+  }
+  &.right{
+    position: relative;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+  }
+
+  &.legendary{
+    &.left{
+      div.mask{
+        border-bottom-right-radius: 0!important;
+        border-top-right-radius: 0!important;
+      }
+    }
+    &.middle{
+      div.mask{
+        border-radius: 0!important;
+      }
+    }
+    &.right{
+      div.mask{
+        border-bottom-left-radius: 0!important;
+        border-top-left-radius: 0!important;
+      }
+    }
+  }
+
+  &.bump{
+    &.left{
+      padding-right: 0;
+      div.plate{
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 0;
+        padding-right: 0;
+        div.mask{
+          border-right: 1px solid rgba(0,0,0,.4);
+          border-bottom-right-radius: 0;
+          border-top-right-radius: 0;
+        }
+      }
+    }
+    &.middle{
+      padding: 2px 0 2px 0;
+      div.plate{
+        border-radius: 0;
+        padding: 2px 0 2px 0;
+        div.mask{
+          border-right: 1px solid rgba(0,0,0,.4);
+          border-left: 1px solid rgba(0,0,0,.4);
+          border-radius: 0;
+        }
+      }
+    }
+    &.right{
+      padding-left: 0;
+      div.plate{
+        border-bottom-left-radius: 0;
+        border-top-left-radius: 0;
+        padding-left: 0;
+        div.mask{
+          border-left: 1px solid rgba(0,0,0,.4);
+          border-bottom-left-radius: 0;
+          border-top-left-radius: 0;
+        }
+      }
+    }
+  }
+
+  &.outlined{
+    &.left{
+      div.mask{
+        border-bottom-right-radius: 0!important;
+        border-top-right-radius: 0!important;
+      }
+    }
+    &.middle{
+      div.mask{
+        border-radius: 0!important;
+      }
+    }
+    &.right{
+      div.mask{
+        border-bottom-left-radius: 0!important;
+        border-top-left-radius: 0!important;
+      }
+    }
+  }
+
+  &.flat{
+    &.left{
+      margin-right: 1px;
+    }
+    &.middle{
+      margin-right: 1px;
+    }
+  }
+}

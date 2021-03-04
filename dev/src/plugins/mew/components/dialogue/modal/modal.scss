@@ -1,0 +1,56 @@
+div.mew-modal{
+  position: absolute;top: 0;left: 0;
+  z-index: 100;
+  height: 100%;width: 100%;
+  background-color: white;
+  overflow: hidden;
+  padding: 0 25px;
+  div.closeBox{
+    cursor: pointer;
+    color: rgba(0,0,0,.7);
+    position: absolute;right: 15.5px;top: 12px;
+    padding: 8px;
+    line-height: 10px;
+    transition: all .1s;
+    &:hover{
+      color: black;
+    }
+    &:active{
+      transform: scale(1.1);
+    }
+  }
+  header{
+    height: 60px;
+    margin-right: 12px;
+    overflow: hidden;
+  }
+  main.scrollBox{
+    height: calc(100% - 60px - 30px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    div.contentWrapper{
+      transform: translateY(-20px);
+      padding-right: 12px;
+        &::before{
+          transition: all 1.6s;
+          display: block;content: '';
+          position: sticky;left: 3%;top:0;
+          width: 94%;height: 20px;
+          border-radius: 50%;
+          box-shadow: none;
+        }
+        &.headerShadow{
+          &::before{
+            box-shadow: 0 5px 10px rgba(0,0,0,.1),0 2px 5px rgba(0,0,0,.05);
+          }
+        }
+      &.scrollbar{
+        padding-right: 0;
+      }
+
+    }
+
+  }
+  footer{
+  }
+}

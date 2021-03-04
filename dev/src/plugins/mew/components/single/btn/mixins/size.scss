@@ -1,0 +1,39 @@
+//按钮的大小
+div.mew-btn{
+  &.xs{
+    font-size:12px;
+    height: 23px;
+    div.mask{
+      padding:0 8px;
+
+    }
+  }
+  &.sm{
+    font-size: 13px;
+    height: 27px;
+    div.mask{
+      padding:0 13px;
+    }
+  }
+  &.md{
+    font-size: 15px;
+    height: 30px;
+    div.mask{
+      padding:0 20px;
+    }
+  }
+  &.lg{
+    font-size: 17px;
+    height: 33px;
+    div.mask{
+      padding:0 23px;
+    }
+  }
+  &.xl{
+    font-size: 19px;
+    height: 36px;
+    div.mask{
+      padding:0 26px;
+    }
+  }
+}

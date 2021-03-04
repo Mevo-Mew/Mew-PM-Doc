@@ -1,0 +1,147 @@
+// 按钮的风格
+div.mew-btn{
+  &.light{
+    color:black;text-shadow: 0 0 2px rgba(255,255,255,.5)
+  }
+  &.dark{
+    color:white;text-shadow: 0 0 2px rgba(0,0,0,.6)
+  }
+}
+div.mew-btn{
+  &.legendary{
+    --CLR-Background:white;
+    &.light{
+      --borderColor:rgba(0,0,0,.6)
+    }
+    &.dark{
+      --borderColor:rgba(0,0,0,.3)
+    }
+    // 按钮的外部阴影
+    box-shadow: 0 0 0 .7px var(--borderColor),1px 1px 10px rgba(0,0,0,.06);
+    background: var(--CLR-Background);
+    div.mask{
+      background: linear-gradient(0deg,rgba(0,0,0,.28) 20% ,rgba(255,255,255,0.4) 100%);
+      box-shadow: 0 1px 1px inset rgba(255,255,255,.4),0 -1px 1px inset rgba(0,0,0,.3),0 0 1px rgba(0,0,0,.3);
+      &:hover{
+        background: linear-gradient(0deg,rgba(0,0,0,.18) 15% ,rgba(255,255,255,0.4) 100%);
+      }
+    }
+
+    &:active:not(.pending){
+      // 按钮的外部效果
+      box-shadow: 0 0 0 .7px var(--borderColor),1px 1px 10px rgba(0,0,0,.08),0 1px 1px inset rgba(0,0,0,.7);
+      div.mask{
+        transform: translateY(1px);
+        background: linear-gradient(0deg,rgba(0,0,0,.28) 20% ,rgba(255,255,255,0.2) 100%);
+        box-shadow: 0 1px 1px inset rgba(255,255,255,0),0 -1px 1px inset rgba(0,0,0,.4),0 0 1px rgba(0,0,0,.3);
+      }
+    }
+  }
+
+  &.bump{
+    --CLR-Background:rgba(250,250,250,.9);
+    --CLR-Gap:#93999e;
+    --CLR-Outline:#eaeaea;
+    padding: 2px 2px 2px 2px;
+    border-radius: 4px;
+    background: var(--CLR-Outline);
+    div.plate{
+      padding: 2px 2px 2px 2px;
+      border-radius: 2px;
+      background: var(--CLR-Gap);
+      box-shadow: .5px .5px 1pxinset rgba(0,0,0,.2),-.5px -.5px 1px inset rgba(0,0,0,.1);
+      div.mask{
+        position: relative;
+        border-radius: 1px;
+        background-color: var(--CLR-Background);
+        &::after{
+          position: absolute;
+          left: 0;width: 100%;
+          top: 0;height: 100%;
+          content: '';
+          box-shadow: 0 0 1px rgba(0,0,0,.7),0 0 2px rgba(0,0,0,.4),.5px .5px 1px inset rgba(250, 250, 250, .5),-.5px -.5px .5px inset rgba(250, 250, 250, .3);
+          background: linear-gradient(0deg,rgba(0,0,0,.02) 10%,rgba(0,0,0,0) 30%,rgba(0,0,0,0) 40%, rgba(0,0,0,.02) 100%);
+        }
+        &:hover{
+          filter: brightness(1.15);
+        }
+      }
+    }
+
+    &.valid:active{
+      div.plate{
+        div.mask{
+          transform: translateY(.5px);
+          box-shadow: 0 4px 6px inset rgba(0,0,0,.1);
+        }
+      }
+    }
+
+  }
+
+  &.outlined{
+    --CLR-Text:#2d2d2d;
+    --CLR-Border:#4f4f4f;
+    --CLR-Spread:rgba(0,0,0,.5);
+    --CLR-Ripple:rgba(0,0,0,.07);
+    --CLR-Hover:rgba(0,0,0,.05);
+    color: var(--CLR-Text);
+    border: 1px solid var(--CLR-Border);
+    padding: 1px;
+    transition: all .1s;
+    &.light,&.dark{
+      color: var(--CLR-Text);
+      text-shadow: none;
+    }
+    &.valid:active{
+      box-shadow: 0 0 1.5px inset black;
+    }
+    &.valid.spread{
+      @keyframes spread {
+        0%{ box-shadow: 0 0 0 0 var(--CLR-Spread) }
+        100%{ box-shadow: 0 0 0 4px rgba(0,0,0,0) }
+      }
+      animation: spread .4s;
+    }
+    div.plate{
+      div.mask{
+        border-radius: 2px;
+        &:hover{
+          background-color: var(--CLR-Hover);
+        }
+      }
+    }
+  }
+
+  &.flat{
+    --CLR-Spread:rgba(0,0,0,.6);
+    --CLR-Btn:white;
+    --CLR-Active:#e5e5e5;
+    background-color: var(--CLR-Btn);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    transition: background-color .1s;
+    &.valid:active{
+      background-color: var(--CLR-Active);
+    }
+    &.valid.spread{
+      @keyframes spread {
+        0%{ box-shadow: 0 1px 2px rgba(0,0,0,.2),0 0 0 0 var(--CLR-Spread) }
+        100%{ box-shadow: 0 1px 2px rgba(0,0,0,.2),0 0 0 4px rgba(0,0,0,0) }
+      }
+      animation: spread .4s;
+    }
+  }
+
+  &.text{
+    --CLR-Text:rgba(0,0,0,.7);
+    --CLR-Background:rgba(0,0,0,.06);
+    --CLR-Ripple:rgba(0,0,0,.07);
+    color:var(--CLR-Text);
+    transition: all .1s;
+    &:hover{
+      background: var(--CLR-Background);
+    }
+
+  }
+
+}

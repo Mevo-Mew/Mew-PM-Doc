@@ -1,0 +1,40 @@
+html{
+  font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior:smooth;
+  overflow: hidden!important;
+}
+
+body{
+  margin: 0;
+  //height: 100vh;
+}
+ul,li{
+  margin: 0;padding: 0;
+  list-style: none;
+}
+i{
+  font-style: normal;
+}
+a{
+  text-decoration: none;
+  &:link {
+    text-decoration: none;
+  }
+  &:visited{
+    text-decoration: none;
+  }
+  &:active{
+    text-decoration: none;
+  }
+}
+
+// 内容区切换时动画
+.view-enter-active{
+  transition: all .2s;
+}
+.view-enter {
+  opacity: 0;
+  //transform: translateX(-10px);
+}

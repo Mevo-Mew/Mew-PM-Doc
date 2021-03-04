@@ -1,0 +1,16 @@
+
+// 波纹指令的动画，比如线框按钮点击时的波纹效果
+[ripple] .ripple--container .ripple--body {
+  will-change:transform,opacity;
+  border-radius:100%;
+  position:absolute;
+  overflow:hidden;
+  opacity:0.5;
+  animation:rippler 500ms linear;
+  background-color: var(--CLR-Ripple);
+  transform:scale(0);
+  @keyframes rippler{
+    to{opacity:0;transform:scale(2);}
+  }
+}
+

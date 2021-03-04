@@ -1,0 +1,192 @@
+@font-face {
+  font-family: 'mew';
+  src:url('ico.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ico-"], [class*="ico-"]{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mew' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ico-printer-machine:before {
+  content: "\e91b";
+}
+.ico-mark-sharp:before {
+  content: "\e91f";
+}
+.ico-add-block-inner:before {
+  content: "\e900";
+}
+.ico-add-block-outlined:before {
+  content: "\e901";
+}
+.ico-add-block-solid:before {
+  content: "\e902";
+}
+.ico-bill:before {
+  content: "\e903";
+}
+.ico-bookmark:before {
+  content: "\e904";
+}
+.ico-cargo-outlined:before {
+  content: "\e905";
+}
+.ico-cargo-solid:before {
+  content: "\e906";
+}
+.ico-codemark:before {
+  content: "\e907";
+}
+.ico-dinosaur:before {
+  content: "\e908";
+}
+.ico-favorite-outlined:before {
+  content: "\e909";
+}
+.ico-favorite-solid:before {
+  content: "\e90a";
+}
+.ico-flask-beaker:before {
+  content: "\e90b";
+}
+.ico-flask-cone:before {
+  content: "\e90c";
+}
+.ico-flask-sphere:before {
+  content: "\e90d";
+}
+.ico-food-botany:before {
+  content: "\e90e";
+}
+.ico-food-bread:before {
+  content: "\e90f";
+}
+.ico-img-stamp:before {
+  content: "\e910";
+}
+.ico-layout-label-business:before {
+  content: "\e911";
+}
+.ico-layout-label-history:before {
+  content: "\e912";
+}
+.ico-layout-label-mew:before {
+  content: "\e913";
+}
+.ico-layout-label-public:before {
+  content: "\e914";
+}
+.ico-layout-label-settings:before {
+  content: "\e915";
+}
+.ico-link:before {
+  content: "\e916";
+}
+.ico-location:before {
+  content: "\e917";
+}
+.ico-logo-mew:before {
+  content: "\e918";
+}
+.ico-logo-sunheight:before {
+  content: "\e919";
+}
+.ico-mark-road-flag:before {
+  content: "\e91a";
+}
+.ico-new-mark:before {
+  content: "\e91c";
+}
+.ico-new-text:before {
+  content: "\e91d";
+}
+.ico-nuke:before {
+  content: "\e91e";
+}
+.ico-refresh-circle:before {
+  content: "\e920";
+}
+.ico-search-content:before {
+  content: "\e921";
+}
+.ico-search-file:before {
+  content: "\e922";
+}
+.ico-search-magnify:before {
+  content: "\e923";
+}
+.ico-switch-left:before {
+  content: "\e924";
+}
+.ico-switch-right:before {
+  content: "\e925";
+}
+.ico-symbol-core:before {
+  content: "\e926";
+}
+.ico-symbol-molecule:before {
+  content: "\e927";
+}
+.ico-textboard:before {
+  content: "\e928";
+}
+.ico-ui-close:before {
+  content: "\e929";
+}
+.ico-ui-copy:before {
+  content: "\e92a";
+}
+.ico-ui-drag-handler:before {
+  content: "\e92b";
+}
+.ico-ui-menu-grid:before {
+  content: "\e92c";
+}
+.ico-ui-menu-list:before {
+  content: "\e92d";
+}
+.ico-ui-new-tab:before {
+  content: "\e92e";
+}
+.ico-ui-target:before {
+  content: "\e92f";
+}
+.ico-ui-triangle:before {
+  content: "\e930";
+}
+.ico-user-safty-outlined:before {
+  content: "\e931";
+}
+.ico-user-safty-solid:before {
+  content: "\e932";
+}
+.ico-view-ticket:before {
+  content: "\e933";
+}
+.ico-vpn:before {
+  content: "\e934";
+}
+.ico-warehouse:before {
+  content: "\e935";
+}
+.ico-weather:before {
+  content: "\e936";
+}
+.ico-webpack:before {
+  content: "\e937";
+}
+.ico-wechat:before {
+  content: "\e938";
+}
