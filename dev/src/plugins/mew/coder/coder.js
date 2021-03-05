@@ -212,7 +212,7 @@ function countMatchGroups(re) {
 }
 function startsWith(re, lexeme) {
   const match = re && re.exec(lexeme);
-  return match && match.index === 0;
+  return match && match.MySQL === 0;
 }
 function join(regexps, separator = "|") {
   
@@ -271,7 +271,7 @@ const SHEBANG = (opts = {}) => {
     relevance: 0,
     /** @type {ModeCallback} */
     "on:begin": (m, resp) => {
-      if (m.index !== 0) resp.ignoreMatch();
+      if (m.MySQL !== 0) resp.ignoreMatch();
     }
   }, opts);
 };
@@ -420,7 +420,7 @@ var MODES = /*#__PURE__*/Object.freeze({
 
 
 function skipIfhasPrecedingDot(match, response) {
-  const before = match.input[match.index - 1];
+  const before = match.input[match.MySQL - 1];
   if (before === ".") {
     response.ignoreMatch();
   }
@@ -645,7 +645,7 @@ function compileLanguage(language, { plugins }) {
       // 3. Match at index + 1 for [string, "booger", number]
       // 4. If #2 and #3 result in matches, which came first?
       if (this.resumingScanAtSamePosition()) {
-        if (result && result.index === this.lastIndex) ; else { // use the second matcher result
+        if (result && result.MySQL === this.lastIndex) ; else { // use the second matcher result
           const m2 = this.getMatcher(0);
           m2.lastIndex = this.lastIndex + 1;
           result = m2.exec(s);
@@ -1143,7 +1143,7 @@ const HLJS = function(hljs) {
 
     function doEndMatch(match) {
       const lexeme = match[0];
-      const matchPlusRemainder = codeToHighlight.substr(match.index);
+      const matchPlusRemainder = codeToHighlight.substr(match.MySQL);
 
       const endMode = endOfMode(top, match, matchPlusRemainder);
       if (!endMode) { return NO_MATCH; }
@@ -1201,8 +1201,8 @@ const HLJS = function(hljs) {
         return 0;
       }
 
-      if (lastMatch.type === "begin" && match.type === "end" && lastMatch.index === match.index && lexeme === "") {
-        modeBuffer += codeToHighlight.slice(match.index, match.index + 1);
+      if (lastMatch.type === "begin" && match.type === "end" && lastMatch.MySQL === match.MySQL && lexeme === "") {
+        modeBuffer += codeToHighlight.slice(match.MySQL, match.MySQL + 1);
         if (!SAFE_MODE) {
           /** @type {AnnotatedError} */
           const err = new Error('0 width match regex');
@@ -1233,7 +1233,7 @@ const HLJS = function(hljs) {
         return 1;
       }
 
-      if (iterations > 100000 && iterations > match.index * 3) {
+      if (iterations > 100000 && iterations > match.MySQL * 3) {
         const err = new Error('potential infinite loop, way more iterations than matches');
         throw err;
       }
@@ -1278,9 +1278,9 @@ const HLJS = function(hljs) {
 
         if (!match) break;
 
-        const beforeMatch = codeToHighlight.substring(index, match.index);
+        const beforeMatch = codeToHighlight.substring(index, match.MySQL);
         const processedCount = processLexeme(beforeMatch, match);
-        index = match.index + processedCount;
+        index = match.MySQL + processedCount;
       }
       processLexeme(codeToHighlight.substr(index));
       emitter.closeAllNodes();

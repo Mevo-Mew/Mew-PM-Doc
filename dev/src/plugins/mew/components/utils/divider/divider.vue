@@ -28,7 +28,7 @@
 </script>
 <style scoped lang="scss">
     div.mew-divider{
-        --CLR-Default:rgba(0,0,0,.4);
+        --CLR-Default:rgba(0,0,0,.1);
         background-color: var(--CLR-Default);
         height:1px;
         &.vertical{

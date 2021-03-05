@@ -1,7 +1,8 @@
 <template>
     <div id="headbar" class="flex justify-center">
         <div class="alignBox">
-            <h3>项目文档</h3>
+            <h3 class="mainTitle">项目文档</h3>
+            <h3 class="docTitle">{{ $route.name }}</h3>
 <!--            <div class="logo"/>-->
         </div>
     </div>
@@ -33,9 +34,17 @@
             box-sizing: border-box;
             font-weight: bold;
             width: var(--wrapperWidth);
-            padding-left: 14px;
             h3{
-                color:#969696;
+                &.mainTitle{
+                    box-sizing: border-box;
+                    color:#969696;
+                    padding-left: 14px;
+                    width: var(--sidebarWidth);
+                }
+                &.docTitle{
+                    color: white;
+                    padding-left: 20px;
+                }
             }
             div.logo{
                 /*width: 63px;height: 30px;*/

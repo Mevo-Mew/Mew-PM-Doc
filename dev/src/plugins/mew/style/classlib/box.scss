@@ -1,83 +1,32 @@
-.px-xs{
-  --px:1;
-  padding-left: calc(var(--DIM-Min) * var(--px));padding-right:calc(var(--DIM-Min) * var(--px));
-}
-.px-sm{
-  --px:2;
-  padding-left: calc(var(--DIM-Min) * var(--px));padding-right:calc(var(--DIM-Min) * var(--px));
-}
-.px-md{
-  --px:3;
-  padding-left: calc(var(--DIM-Min) * var(--px));padding-right:calc(var(--DIM-Min) * var(--px));
-}
-.px-lg{
-  --px:4;
-  padding-left: calc(var(--DIM-Min) * var(--px));padding-right:calc(var(--DIM-Min) * var(--px));
-}
-.px-xl{
-  --px:5;
-  padding-left: calc(var(--DIM-Min) * var(--px));padding-right:calc(var(--DIM-Min) * var(--px));
-}
+$box-size:(
+    xs:4px,
+    sm:7px,
+    md:10px,
+    lg:15px,
+    xl:20px
+);
 
-.py-xs{
-  --py:1;
-  padding-top:  calc(var(--DIM-Min) * var(--py)); padding-bottom:  calc(var(--DIM-Min) * var(--py));
+$pt:'padding-top';
+$pr:'padding-right';
+$pb:'padding-bottom';
+$pl:'padding-left';
+$mt:'margin-top';
+$mr:'margin-right';
+$mb:'margin-bottom';
+$ml:'margin-left';
+@each $size,$value in $box-size{
+  [#{'pt-' + $size}]{ #{$pt}:#{$value} }
+  [#{'pr-' + $size}]{ #{$pr}:#{$value} }
+  [#{'pb-' + $size}]{ #{$pb}:#{$value} }
+  [#{'pl-' + $size}]{ #{$pl}:#{$value} }
+  [#{'px-' + $size}]{ #{$pl}:#{$value};#{$pr}:#{$value} }
+  [#{'py-' + $size}]{ #{$pt}:#{$value};#{$pb}:#{$value} }
+  [#{'mt-' + $size}]{ #{$mt}:#{$value} }
+  [#{'mr-' + $size}]{ #{$mr}:#{$value} }
+  [#{'mb-' + $size}]{ #{$mb}:#{$value} }
+  [#{'ml-' + $size}]{ #{$ml}:#{$value} }
+  [#{'mx-' + $size}]{ #{$ml}:#{$value};#{$mr}:#{$value} }
+  [#{'my-' + $size}]{ #{$mt}:#{$value};#{$mb}:#{$value} }
 }
-.py-sm{
-  --py:2;
-  padding-top:  calc(var(--DIM-Min) * var(--py)); padding-bottom:  calc(var(--DIM-Min) * var(--py));
-}
-.py-md{
-  --py:3;
-  padding-top:  calc(var(--DIM-Min) * var(--py)); padding-bottom:  calc(var(--DIM-Min) * var(--py));
-}
-.py-lg{
-  --py:4;
-  padding-top:  calc(var(--DIM-Min) * var(--py)); padding-bottom:  calc(var(--DIM-Min) * var(--py));
-}
-.py-xl{
-  --py:5;
-  padding-top:  calc(var(--DIM-Min) * var(--py)); padding-bottom:  calc(var(--DIM-Min) * var(--py));
-}
+[mx-auto]{#{$ml}: auto;#{$mr}: auto;}
 
-.mx-xs{
-  --mx:1;
-  margin-left: calc(var(--DIM-Min) * var(--mx));margin-right:calc(var(--DIM-Min) * var(--mx));
-}
-.mx-sm{
-  --mx:2;
-  margin-left: calc(var(--DIM-Min) * var(--mx));margin-right:calc(var(--DIM-Min) * var(--mx));
-}
-.mx-md{
-  --mx:3;
-  margin-left: calc(var(--DIM-Min) * var(--mx));margin-right:calc(var(--DIM-Min) * var(--mx));
-}
-.mx-lg{
-  --mx:4;
-  margin-left: calc(var(--DIM-Min) * var(--mx));margin-right:calc(var(--DIM-Min) * var(--mx));
-}
-.mx-xl{
-  --mx:5;
-  margin-left: calc(var(--DIM-Min) * var(--mx));margin-right:calc(var(--DIM-Min) * var(--mx));
-}
-
-.my-xs{
-  --my:1;
-  margin-top: calc(var(--DIM-Min) * var(--my));margin-bottom:calc(var(--DIM-Min) * var(--my));
-}
-.my-sm{
-  --my:2;
-  margin-top: calc(var(--DIM-Min) * var(--my));margin-bottom:calc(var(--DIM-Min) * var(--my));
-}
-.my-md{
-  --my:3;
-  margin-top: calc(var(--DIM-Min) * var(--my));margin-bottom:calc(var(--DIM-Min) * var(--my));
-}
-.my-lg{
-  --my:4;
-  margin-top: calc(var(--DIM-Min) * var(--my));margin-bottom:calc(var(--DIM-Min) * var(--my));
-}
-.my-xl{
-  --my:5;
-  margin-top: calc(var(--DIM-Min) * var(--my));margin-bottom:calc(var(--DIM-Min) * var(--my));
-}

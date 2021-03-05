@@ -1,6 +1,5 @@
 <template>
     <div id="cantent">
-        <h2 class="doc-title">{{ $route.name }}</h2>
         <transition name="view">
             <router-view />
         </transition>
@@ -15,9 +14,6 @@
 
 <style scoped lang="scss">
     #cantent{
-        h2.doc-title{
-            color: rgba(0,0,0,.6);
-        }
         font-family: 微软雅黑;
         width: calc(var(--wrapperWidth) - var(--sidebarWidth));
         height: calc(100% - var(--headbarHeight) - var(--cantentGap));

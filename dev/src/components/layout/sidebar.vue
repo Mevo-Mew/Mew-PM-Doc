@@ -125,15 +125,15 @@
                                 &.activated{
                                     color: #c30000;
                                     font-weight: 900;
-                                    &::after{
-                                        position: absolute;
-                                        display: inline-block;
-                                        right: 12px;top: 5px;
-                                        content: '';
-                                        width: 2px;
-                                        height: 20px;
-                                        background-color: #c30000;
-                                    }
+                                    /*&::after{*/
+                                    /*    position: absolute;*/
+                                    /*    display: inline-block;*/
+                                    /*    right: 12px;top: 5px;*/
+                                    /*    content: '';*/
+                                    /*    width: 2px;*/
+                                    /*    height: 20px;*/
+                                    /*    background-color: #c30000;*/
+                                    /*}*/
                                 }
                             }
                         }
