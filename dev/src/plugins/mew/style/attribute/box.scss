@@ -30,3 +30,8 @@ $ml:'margin-left';
 }
 [mx-auto]{#{$ml}: auto;#{$mr}: auto;}
 
+@for $i from 1 to 26 {
+  [col-#{$i}]{
+    width:#{($i * 4) + '%'}
+  }
+}

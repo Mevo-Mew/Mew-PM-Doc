@@ -1,32 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue" line="17" />
+    <bookmark url="file://$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue" line="13" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c78fc1ba-df56-405d-aeec-33fb411571fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/doc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/src/views/guide/MySQL/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/src/views/guide/Server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/src/views/guide/aaaaa.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/src/views/interface/RESTful/RESTful.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dev/src/views/interface/RESTful/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/effect.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/components/layout/cantent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/components/layout/cantent.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/src/components/layout/headbar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/components/layout/headbar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/components/layout/sidebar.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/components/layout/sidebar.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/coder/coder.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/coder/coder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/coder/hljs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/coder/hljs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/components/utils/divider/divider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/components/utils/divider/divider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classes.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/classes.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/box.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/font.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classes.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/box.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/box.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/doc.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/flex.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/flex.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/font.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/icon/ico.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/ico.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/icon/ico.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dev/src/plugins/mew/style/reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/plugins/mew/style/reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/store/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/store/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/src/views/guide/Server.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/views/guide/Server/Server.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue" beforeDir="false" afterPath="$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,50 +29,59 @@
     <favorites_list name="Mew-PM" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4259703">
+    <splitter split-orientation="horizontal" split-proportion="0.3790909">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/dev/src/store/sidebar.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1044">
-                  <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/coder/index.js">
-              <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="319">
-                  <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+                  <caret line="11" column="28" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/font.scss">
+            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/effect.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="145">
-                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                <state relative-caret-position="406">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/box.scss">
+            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/font.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="261">
-                  <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+                  <caret line="9" selection-start-line="9" selection-end-line="9" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/doc.scss">
+            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/box.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="812">
-                  <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+                <state relative-caret-position="551">
+                  <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/reset.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2726">
+                  <caret line="94" selection-start-line="94" selection-end-line="94" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/flex.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="928">
+                  <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -93,12 +93,17 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="580">
-                  <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-                  <folding>
-                    <element signature="n#style#0;n#pre#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-                    <element signature="n#pre#0;n#div#0;n#template#0;n#!!top" />
-                  </folding>
+                <state relative-caret-position="638">
+                  <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/dev/src/components/layout/headbar.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="116">
+                  <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
@@ -110,9 +115,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -126,6 +131,9 @@
       <find>12px</find>
       <find>*</find>
       <find>4px</find>
+      <find>arrtibute</find>
+      <find>0px</find>
+      <find>a</find>
     </findStrings>
     <replaceStrings>
       <replace>fs</replace>
@@ -134,6 +142,8 @@
       <replace>bottom</replace>
       <replace>15px</replace>
       <replace>map-get($box-size,xs)</replace>
+      <replace>attribute</replace>
+      <replace>0</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -148,10 +158,7 @@
         <option value="$PROJECT_DIR$/dev/src/App.vue" />
         <option value="$PROJECT_DIR$/dev/src/views/guide/Info.vue" />
         <option value="$PROJECT_DIR$/dev/src/views/guide/Production.vue" />
-        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/flex.scss" />
         <option value="$PROJECT_DIR$/dev/src/views/guide/Server.vue" />
-        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/classes.scss" />
-        <option value="$PROJECT_DIR$/dev/src/components/layout/headbar.vue" />
         <option value="$PROJECT_DIR$/dev/src/components/layout/cantent.vue" />
         <option value="$PROJECT_DIR$/dev/src/plugins/mew/coder/hljs.scss" />
         <option value="$PROJECT_DIR$/dev/src/views/guide/MySQL.vue" />
@@ -160,7 +167,6 @@
         <option value="$PROJECT_DIR$/dev/src/views/guide/doc-MySQL/index.js" />
         <option value="$PROJECT_DIR$/dev/src/views/guide/MySQL/index.js" />
         <option value="$PROJECT_DIR$/dev/src/plugins/mew/coder/index.js" />
-        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/reset.scss" />
         <option value="$PROJECT_DIR$/dev/src/components/layout/sidebar.vue" />
         <option value="$PROJECT_DIR$/dev/src/plugins/mew/components/utils/divider/divider.vue" />
         <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/doc.scss" />
@@ -168,8 +174,18 @@
         <option value="$PROJECT_DIR$/dev/src/views/interface/RESTful/index.js" />
         <option value="$PROJECT_DIR$/dev/src/store/sidebar.js" />
         <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/box.scss" />
-        <option value="$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue" />
         <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/font.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/flex.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/classes.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/flex.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/box.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/article.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/index.js" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/reset.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/font.scss" />
+        <option value="$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/effect.scss" />
+        <option value="$PROJECT_DIR$/dev/src/components/layout/headbar.vue" />
+        <option value="$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue" />
       </list>
     </option>
   </component>
@@ -224,6 +240,14 @@
               <item name="Mew-PM" type="462c0819:PsiDirectoryNode" />
               <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mew-PM" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -252,17 +276,6 @@
               <item name="mew" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="set" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mew-PM" type="462c0819:PsiDirectoryNode" />
-              <item name="dev" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="mew" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="set" type="462c0819:PsiDirectoryNode" />
-              <item name="cellset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
@@ -312,7 +325,17 @@
               <item name="plugins" type="462c0819:PsiDirectoryNode" />
               <item name="mew" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
-              <item name="classlib" type="462c0819:PsiDirectoryNode" />
+              <item name="attribute" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mew-PM" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="mew" type="462c0819:PsiDirectoryNode" />
+              <item name="style" type="462c0819:PsiDirectoryNode" />
+              <item name="icon" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
@@ -327,6 +350,23 @@
               <item name="dev" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mew-PM" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mew-PM" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="guide" type="462c0819:PsiDirectoryNode" />
+              <item name="MySQL" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mew-PM" type="b2602c69:ProjectViewProjectNode" />
@@ -354,7 +394,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mew-UI" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -362,13 +402,15 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Desktop\GitHub\Mew-T1\Mew-PM\dev" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\0. Git\Mew-T1\Mew-PM\dev\src\plugins\mew\style\ico" />
+      <recent name="D:\0. Git\Mew-T1\Mew-PM\dev\src\plugins\mew\style\attribute" />
       <recent name="D:\Desktop\GitHub\Mew-T1\Mew-PM\dev\src\views\guide\MySQL" />
       <recent name="D:\Desktop\GitHub\Mew-T1\Mew-PM\dev\src\views\guide" />
       <recent name="D:\Desktop\GitHub\Mew-T1\Mew-PM\dev\src\views\guide\Server" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Desktop\GitHub\Mew-T1\Mew-PM\dev" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -397,18 +439,25 @@
       <workItem from="1614909215174" duration="6384000" />
       <workItem from="1614915641859" duration="1145000" />
       <workItem from="1614920777635" duration="19991000" />
+      <workItem from="1614957187157" duration="612000" />
+      <workItem from="1614965758645" duration="1363000" />
+      <workItem from="1615024527834" duration="3221000" />
+      <workItem from="1615045578171" duration="8016000" />
+      <workItem from="1615130333460" duration="3840000" />
+      <workItem from="1615135846372" duration="1075000" />
+      <workItem from="1615137850530" duration="653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32919000" />
+    <option name="totallyTimeSpent" value="51699000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2575" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48377582" visible="true" weight="0.17802285" />
-      <window_info x="851" y="465" width="1557" height="736" id="Terminal" order="1" sideWeight="0.5435103" side_tool="true" type="FLOATING" weight="0.1988972" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48377582" visible="true" weight="0.13351713" />
+      <window_info x="180" y="440" width="1290" height="736" id="Terminal" order="1" sideWeight="0.5435103" side_tool="true" type="FLOATING" weight="0.1988972" />
       <window_info id="Favorites" order="2" sideWeight="0.5162242" side_tool="true" weight="0.11106735" />
       <window_info id="TypeScript" order="3" sideWeight="0.52359885" side_tool="true" weight="0.094525404" />
       <window_info id="Structure" order="4" sideWeight="0.52359885" side_tool="true" weight="0.094525404" />
@@ -429,6 +478,29 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48377582" visible="true" weight="0.17802285" />
+      <window_info x="180" y="440" width="1290" height="736" id="Terminal" order="1" sideWeight="0.5435103" side_tool="true" type="FLOATING" weight="0.1988972" />
+      <window_info id="Favorites" order="2" sideWeight="0.5162242" side_tool="true" weight="0.11106735" />
+      <window_info id="TypeScript" order="3" sideWeight="0.52359885" side_tool="true" weight="0.094525404" />
+      <window_info id="Structure" order="4" sideWeight="0.52359885" side_tool="true" weight="0.094525404" />
+      <window_info id="TODO" order="5" sideWeight="0.52359885" side_tool="true" weight="0.094525404" />
+      <window_info id="Database" order="6" sideWeight="0.5007375" side_tool="true" weight="0.18353683" />
+      <window_info id="Event Log" order="7" sideWeight="0.5007375" side_tool="true" weight="0.18353683" />
+      <window_info id="Version Control" order="8" sideWeight="0.50074965" side_tool="true" weight="0.18355185" />
+      <window_info x="1159" y="353" width="426" height="694" id="Coding Counter" order="9" sideWeight="0.5125369" type="FLOATING" weight="0.09531312" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.3455772" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Debug" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -511,22 +583,12 @@
     <entry file="file://$PROJECT_DIR$/dev/src/style/main.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/flex.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/views/guide/Server/Server.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/components/layout/cantent.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -549,9 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/font.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/components/set/cellset/index.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -559,13 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="29">
           <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/components/layout/headbar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1247">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -587,27 +639,10 @@
     <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/coder/coder.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/coder/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/components/layout/sidebar.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
           <caret line="116" column="10" selection-start-line="116" selection-start-column="10" selection-end-line="116" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/tip.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classes.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -617,9 +652,6 @@
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/reset.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/views/interface/RESTful/index.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -635,42 +667,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/store/sidebar.js">
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classes.scss" />
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/icon/ico.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/tip.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1044">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        <state relative-caret-position="783">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/box.scss">
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/coder/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        <state relative-caret-position="319">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/doc.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/classlib/font.scss">
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/article.scss" />
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/store/sidebar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/font.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/box.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2726">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/flex.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/plugins/mew/style/attribute/effect.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/src/views/guide/MySQL/MySQL.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="45" column="11" lean-forward="true" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#pre#0;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#pre#0;n#div#0;n#template#0;n#!!top" />
-          </folding>
+        <state relative-caret-position="638">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/src/components/layout/headbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
         </state>
       </provider>
     </entry>

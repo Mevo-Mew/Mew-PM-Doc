@@ -1,5 +1,5 @@
 <template>
-    <div id="headbar" class="flex justify-center">
+    <div id="headbar" flex reverse justify-center>
         <div class="alignBox">
             <h3 class="mainTitle">项目文档</h3>
             <h3 class="docTitle">{{ $route.name }}</h3>
@@ -43,7 +43,8 @@
                 }
                 &.docTitle{
                     color: white;
-                    padding-left: 20px;
+                    margin-left: 20px;
+
                 }
             }
             div.logo{

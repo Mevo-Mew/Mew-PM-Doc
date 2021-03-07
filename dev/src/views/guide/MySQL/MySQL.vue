@@ -4,17 +4,13 @@
             本文档记录了 MySQL 的配置、数据迁移、维护。
         </p>
 
-        <div class="testA" pt-xl>
-            <div class="testB" mt-xl fs-lg>TEST TEST TEST TESTTEST TEST TEST TESTTEST TEST TEST TESTTEST TEST TEST TEST</div>
-        </div>
-
-        <h2 fs-md mt-xl tag mb-sm>MySQL 的配置</h2>
+        <h2 tag-bar fs-md mt-xl mb-sm>MySQL 的配置</h2>
         <p>
             MySQL 通过配置文件对功能进行修改，<kbd>盘符:\安装路径\mysql-8.0.22-winx64</kbd> 目录下的 <kbd>my.ini</kbd> 文件，该配置文件是在安装时创建的，若修改需先停止 MySQL 服务。
         </p>
         <imager fill mx-auto :src="imgs[0]" width="80%"></imager>
-        <small class="flex justify-center" mb-xl fs-xs>my.ini 的位置</small>
-        <pre mx-auto style="width: 80%">
+        <small flex justify-center mt-xs mb-xl fs-xs>my.ini 的位置</small>
+        <pre mx-auto quote py-md px-xl col-20>
 <blockquote class="fs-xs">[mysqld]
 # 设置 mysql 服务所占用的系统端口，默认是 3306
 port=3306
@@ -40,7 +36,7 @@ default-character-set=utf8mb4
 # 设置 mysql 客户端连接服务端时默认使用的端口
 port=3306</blockquote>
         </pre>
-        <small class="flex justify-center" mb-xl fs-xs>my.ini 的内容</small>
+        <small flex justify-center mt-xs mb-xl fs-xs>my.ini 的内容</small>
         <divider/>
     </div>
 </template>
@@ -49,6 +45,8 @@ port=3306</blockquote>
     import myini from './my_ini.png'
     export default {
         name: "MySQL",
+        mounted(){
+        },
         data(){
             return {
                 imgs:[
@@ -63,6 +61,10 @@ port=3306</blockquote>
 div.testA{
     background-color: #00a1ff;
     width: 500px;height: 500px;
+    div{
+        height: 20px;
+        background-color: grey;
+    }
     div.testB{
         word-wrap: break-word;
         width: 200px;height: 200px;
