@@ -16,6 +16,10 @@ export default {
                         name:'数据库 MySQL',
                         path:'guide/MySQL',
                     },
+                    {
+                        name:'代码管理 Git',
+                        path:'guide/Git',
+                    },
                 ]
             },
             {
